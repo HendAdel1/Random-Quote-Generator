@@ -6,10 +6,10 @@ var lastIndex = -1
 var currentLang = 'en';
 
 var imagesListEn = [
-    "../images/mohammed-ali.jpg",       
-    "../images/steve-jobs.webp",        
-    "../images/nelson-mandela.jpg",
-    "../images/bernard-m-baruch.webp"     
+    "images/mohammed-ali.jpg",       
+    "images/steve-jobs.webp",        
+    "images/nelson-mandela.jpg",
+    "images/bernard-m-baruch.webp"     
 ];
 
 var quotesEn = [
@@ -34,12 +34,12 @@ var positionsEn = [
 ];
 
 var imagesListAr = [
-    "../images/ali.jpg",                 
-    "../images/salahuddin.jpg",          
-    "../images/Prophet-Muhammad.jpeg",   
-    "../images/omar-ibn-elkhattab.jpg",  
-    "../images/ibn-sina.jpg",            
-    "../images/al-khwarizmi.webp"         
+    "images/ali.jpg",                 
+    "images/salahuddin.jpg",          
+    "images/Prophet-Muhammad.jpeg",   
+    "images/omar-ibn-elkhattab.jpg",  
+    "images/ibn-sina.jpg",            
+    "images/al-khwarizmi.webp"         
 ];
 
 var quotesAr = [
@@ -101,7 +101,6 @@ function generateQuote() {
         quoterPosition.innerHTML = positionsEn[randomIndex];
         quoteImage.src = imagesListEn[randomIndex];
     }
-    quoteImage.src = imagesList[randomIndex];
 }
 
 function setLanguage(lang) {
