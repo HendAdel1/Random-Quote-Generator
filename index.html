@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quote Generator</title>
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap&family=Cairo&display=swap"
+        rel="stylesheet">
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body class="d-flex flex-column min-vh-100">
+
+    <div class="language-switcher d-flex justify-content-end gap-2 p-3">
+        <button class="btn btn-outline-dark btn-sm" onclick="setLanguage('en')">English</button>
+        <button class="btn btn-outline-dark btn-sm" onclick="setLanguage('ar')">العربية</button>
+    </div>
+
+    <div class="container-fluid flex-grow-1 d-flex justify-content-center align-items-center position-relative overflow-hidden">
+        <i class="fa-solid fa-quote-left decorative-icon"></i>
+
+        <div class="row">
+            <div class="quote-container bg-white text-center">
+                <div class="hidden-content" id="hiddenContent">
+                    <div class="image-wrapper">
+                        <img id="quoteImage" src="images/dummy.png" alt="Author" class="image" />
+                    </div>
+                    <h3 id="quoteText" class="quote mb-4"><span class="double-quotes">“</span>
+                        Quote goes here.
+                        <span class="double-quotes">”</span>
+                    </h3>
+                    <h6 id="quoteAuthor" class="quoter custom-font mb-0">Author Name</h6>
+                    <p id="quoterPosition" class="quoter-position custom-font text-secondary">Author Position</p>
+                </div>
+                <button class="btn btn-dark mt-2" onclick="generateQuote()">New Quote</button>
+            </div>
+        </div>
+    </div>
+    <!-- Footer Section -->
+    <footer class="footer py-4 bg-light">
+        <div class="container">
+            <div class="row ">
+                <div class="col-md-4 col-12">
+                    <div class="d-flex justify-content-center">
+                        <span class="d-flex align-content-center info-txt">
+                            <i class="fa-solid fa-envelope fs-4 me-2"></i> 
+                            <a href="mailto:1hend.adel1@gmail.com">1hend.adel1@gmail.com</a>
+                        </span>
+                    </div>
+                    
+                </div>
+                <div class="col-md-4 col-12 py-md-0 py-3">
+                    <div class="d-flex justify-content-center">
+                        <span class="d-flex align-content-center">&copy; 2025 All rights reserved. </span>
+                    </div>
+
+                </div>
+                <div class="col-md-4 col-12">
+                    <div class="d-flex justify-content-center">
+                        <span class="d-flex align-content-center info-txt">
+                            <i class="fa-brands fa-github fs-4 me-2"></i> 
+                            <a href="https://github.com/hendadel1" target="_blank">HendAdel1</a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Yellow Bottom Bar -->
+    <div class="bottom-bar"></div>
+
+
+    <script src="js/main.js"></script>
+</body>
+
+
+</html>
