@@ -107,6 +107,7 @@ body[dir="rtl"] .quoter-position {
 .footer a {
   color: #333;
   text-decoration: none;
+  transition: 0.2s;
 }
 
 .footer a:hover {
@@ -120,8 +121,8 @@ body[dir="rtl"] .quoter-position {
   transition: 0.2s;
   font-family: 'Open Sans', sans-serif;
 }
-.footer a{
-  transition: 0.2s;
+.footer .email-sm-screen{
+  display: none;
 }
 .footer .info-txt:hover, .footer a:hover{
   color: #4d5154;

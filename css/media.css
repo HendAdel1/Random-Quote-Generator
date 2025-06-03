@@ -8,8 +8,23 @@
 }
 @media (max-width: 768px) {
   .quote-container {
-    margin-bottom: 2rem;
+    margin: 3.8rem 0 2rem 0;
+    min-width: 345px;
+    max-width: 345px;
   }
+  .decorative-icon{
+    font-size: 40rem;
+  }
+   .footer{
+    height: 50px; 
+   }
+   .footer .email-sm-screen{
+    display: block;
+   }
+  .footer .email-larger-screens{
+    display: none;
+  }
+  
 }
 
 /* lg */

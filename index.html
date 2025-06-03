@@ -13,7 +13,9 @@
         href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap&family=Cairo&display=swap"
         rel="stylesheet">
     <script src="js/bootstrap.bundle.min.js"></script>
-    <link rel="stylesheet" href="css/style.css" />
+
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/media.css"/>
 </head>
 
 <body class="d-flex flex-column min-vh-100">
@@ -44,35 +46,41 @@
         </div>
     </div>
     <!-- Footer Section -->
-    <footer class="footer py-4 bg-light">
+    <footer class="footer py-md-4 bg-light">
         <div class="container">
             <div class="row ">
-                <div class="col-md-4 col-12">
+                <div class="col-md-4 email-larger-screens">
                     <div class="d-flex justify-content-center">
-                        <span class="d-flex align-content-center info-txt">
-                            <i class="fa-solid fa-envelope fs-4 me-2"></i> 
-                            <a href="mailto:1hend.adel1@gmail.com">1hend.adel1@gmail.com</a>
+                        <span class="d-flex align-content-center info-txt ">
+                            <a href="mailto:1hend.adel1@gmail.com">
+                                <i class="fa-solid fa-envelope fs-4 me-2"></i> 
+                                <span>1hend.adel1@gmail.com</span>
+                            </a>
                         </span>
                     </div>
-                    
                 </div>
-                <div class="col-md-4 col-12 py-md-0 py-3">
+                <div class="col-md-4 col-9 py-md-0 py-3 order-1 order-md-2">
                     <div class="d-flex justify-content-center">
-                        <span class="d-flex align-content-center">&copy; 2025 All rights reserved. </span>
+                        <span class="d-flex align-content-center copy-rights">&copy; 2025 Hendo All rights reserved. </span>
                     </div>
 
                 </div>
-                <div class="col-md-4 col-12">
-                    <div class="d-flex justify-content-center">
+                <div class="col-md-4 col-3 order-3 d-flex justify-content-center align-items-center">
                         <span class="d-flex align-content-center info-txt">
-                            <i class="fa-brands fa-github fs-4 me-2"></i> 
-                            <a href="https://github.com/hendadel1" target="_blank">HendAdel1</a>
+                            <a href="https://github.com/hendadel1" target="_blank">
+                                <i class="fa-brands fa-github fs-4 me-2"></i> 
+                                <span class="email-larger-screens">HendAdel1</span>
+                            </a>
+                            <a class="email-sm-screen" href="mailto:1hend.adel1@gmail.com">
+                                <i class="fa-solid fa-envelope fs-4 me-2"></i> 
+                                <span class="email-larger-screens">1hend.adel1@gmail.com</span>
+                            </a>
                         </span>
-                    </div>
                 </div>
             </div>
         </div>
     </footer>
+
 
     <!-- Yellow Bottom Bar -->
     <div class="bottom-bar"></div>
