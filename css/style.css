@@ -11,7 +11,7 @@
 }
 .decorative-icon {
   position: absolute;
-  font-size: 56rem;
+  font-size: 55rem;
   background: linear-gradient(85deg, rgba(255, 224, 51, 1) 69%, rgba(254, 241, 123, 1) 100%);
   background-clip: text;
   color: transparent;
@@ -22,6 +22,7 @@
   justify-content: center;
   z-index: 2;
   max-width: 450px;
+  min-width: 450px;
   padding: 45px 30px 45px;
   box-shadow:
     rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
@@ -127,6 +128,6 @@ body[dir="rtl"] .quoter-position {
   text-decoration: none;
 }
 .bottom-bar {
-  height: 100px;
+  height: 50px;
   background-color: #FFD700;
 }

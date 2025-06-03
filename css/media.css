@@ -6,20 +6,20 @@
 @media (min-width: 768px) {
   
 }
+@media (max-width: 768px) {
+  .quote-container {
+    margin-bottom: 2rem;
+  }
+}
 
 /* lg */
 @media (max-width: 1024px) {
 
-    .about .about-img{
-        margin-bottom: 80px !important;
-    }
 }
 
 /* xl */
 @media (min-width: 1200px) {
-    .our-team .text-nowraping{
-        white-space: nowrap;
-    }
+
 }
 @media (min-width: 1280px) {
 }
